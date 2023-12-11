@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  background-color: rgb(104, 103, 103);
+}
+header nav {
+  width: 85%;
+  margin: auto;
+}
+header nav .collapseDiv {
+  justify-content: flex-start;
+}
+
+#sec-1 {
+  width: 100%;
+  min-height: 600px;
+  background-image: url("https://preview.colorlib.com/theme/server/images/hero_bg_1.jpg");
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sec-1 .getInTouch {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(89, 89, 89, 0.5);
+}
+#sec-1 .getInTouch .AffordableDomains {
+  width: 100%;
+  min-height: 300px;
+  color: white;
+}
+#sec-1 .getInTouch .AffordableDomains h1 {
+  font-size: 80px;
+  color: white;
+  font-family: poppins;
+  font-weight: 500;
+}
+#sec-1 .getInTouch .AffordableDomains .button1 {
+  width: 170px;
+  height: 60px;
+  border: none;
+  background-color: rgb(123, 196, 14);
+  color: white;
+  margin-top: 20px;
+}
+#sec-1 .getInTouch .AffordableDomains .button1:hover {
+  background-color: rgb(91, 147, 7);
+}
+#sec-1 .getInTouch .AffordableDomains .button2 {
+  width: 170px;
+  height: 60px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  margin-top: 20px;
+}
+#sec-1 .getInTouch .AffordableDomains .button2:hover {
+  background-color: white;
+  color: black;
+}
+
+#sec-2 {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 650px;
+  background-color: rgb(222, 222, 222);
+}
+#sec-2 .start {
+  width: 100%;
+  text-align: center;
+  min-height: 200px;
+}
+#sec-2 .VievDetailis {
+  width: 100%;
+  min-height: 370px;
+  background-color: white;
+  box-shadow: 0 0 30px rgba(89, 89, 89, 0.5);
+  border: 0.5px solid rgb(185, 185, 185);
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+#sec-2 .VievDetailis h4 {
+  margin: 20px;
+}
+#sec-2 .VievDetailis p {
+  margin: 10px;
+}
+#sec-2 .VievDetailis button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: #7bc40e;
+  color: white;
+  margin-top: 20px;
+}
+#sec-2 .VievDetailis button:hover {
+  background-color: rgb(91, 147, 7);
+}
+
+#SatisfiedClients {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url("https://preview.colorlib.com/theme/server/images/hero_bg_3.jpg");
+}
+#SatisfiedClients .RegisterNow {
+  width: 100%;
+  color: white;
+}
+#SatisfiedClients .RegisterNow h1 {
+  font-size: 80px;
+  font-weight: 600;
+  font-family: poppins;
+}
+#SatisfiedClients .RegisterNow button {
+  width: 200px;
+  min-height: 60px;
+  border: none;
+  color: white;
+  background-color: #7bc40e;
+  margin-top: 20px;
+}
+#SatisfiedClients .RegisterNow button:hover {
+  background-color: rgb(91, 147, 7);
+}
+
+#API {
+  width: 100%;
+  min-height: 900px;
+  background-color: white;
+}
+#API .whyChooseUs {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#API .whyChooseUs h2 {
+  font-size: 45px;
+  font-weight: 600;
+  font-family: poppins;
+}
+#API #btn {
+  width: 200px;
+  min-height: 45px;
+  background-color: #7bc40e;
+  color: white;
+  border: none;
+}
+#API #btn:hover {
+  background-color: white;
+  color: black;
+}
+#API #myDiv {
+  width: 100%;
+  min-height: 600px;
+  background-color: white;
+}
+#API #myDiv .myBox {
+  width: 100%;
+  min-height: 270px;
+}
+#API #myDiv .myBox .md {
+  width: 100%;
+  min-height: 270px;
+  border: 0.3px solid rgb(199, 196, 196);
+  margin-bottom: 20px;
+}
+#API #myDiv .myBox .md .img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+#API #myDiv .myBox .md .img img {
+  width: 25%;
+  border-radius: 60%;
+  margin-left: 20px;
+}
+#API #myDiv .myBox .md h3 {
+  font-family: poppins;
+  font-weight: 700;
+}
+#API #myDiv .myBox .md p {
+  margin-left: 20px;
+  font-family: poppins;
+}
+#API #myDiv .myBox .md button {
+  margin-left: 20px;
+  width: 40%;
+  min-height: 35px;
+  border: none;
+  background-color: #7bc40e;
+  color: white;
+}
+#API #myDiv .myBox .md button:hover {
+  background-color: rgb(91, 147, 7);
+}
+
+footer {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+footer .end {
+  width: 100%;
+  text-align: center;
+}
+footer .end p {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#basket {
+  width: 100%;
+  min-height: 800px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/round.png");
+  padding-top: 20px;
+}
+#basket #myDiv {
+  width: 100%;
+  min-height: 600px;
+  background-color: transparent;
+}
+#basket #myDiv .myBox {
+  width: 100%;
+  min-height: 270px;
+}
+#basket #myDiv .myBox .md {
+  width: 100%;
+  min-height: 270px;
+  box-shadow: 0 0 30px rgba(89, 89, 89, 0.5);
+  border: 0.3px solid rgb(199, 196, 196);
+  margin-bottom: 20px;
+  background-color: white;
+}
+#basket #myDiv .myBox .md .img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+#basket #myDiv .myBox .md .img img {
+  width: 25%;
+  border-radius: 60%;
+  margin-left: 20px;
+}
+#basket #myDiv .myBox .md h3 {
+  font-family: poppins;
+  font-weight: 700;
+}
+#basket #myDiv .myBox .md p {
+  margin-left: 20px;
+  font-family: poppins;
+}
+#basket #myDiv .myBox .md button {
+  margin-left: 20px;
+  width: 40%;
+  min-height: 35px;
+  border: none;
+  background-color: #7bc40e;
+  color: white;
+}
+#basket #myDiv .myBox .md button:hover {
+  background-color: rgb(91, 147, 7);
+}

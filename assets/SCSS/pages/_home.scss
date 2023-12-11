@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: auto;
+        display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: rgb(104, 103, 103);
+        nav{
+            width: 85%;
+            margin: auto;
+
+            .collapseDiv{
+                justify-content: flex-start;
+            }
+    }
+
+}
+#sec-1{
+    width: 100%;
+    min-height: 600px;
+    background-image: url("https://preview.colorlib.com/theme/server/images/hero_bg_1.jpg");
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .getInTouch{
+        width: 100%;
+        min-height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba($color: #595959, $alpha: 0.5);
+        .AffordableDomains{
+            width: 100%;
+            min-height: 300px;
+            color: white;
+           
+            h1{
+                font-size: 80px;
+                color: white;
+                font-family: poppins;
+                font-weight: 500;
+            }
+            .button1{
+                width: 170px;
+                height: 60px;
+                border: none;
+                background-color: rgb(123, 196, 14);
+                color: white;
+                margin-top: 20px;
+            }
+            .button1:hover{
+                background-color: rgb(91, 147, 7);
+            }
+            .button2{
+                width: 170px;
+                height: 60px;
+                border: 1px solid white;
+                background-color: transparent;
+                color: white;
+                margin-top: 20px;
+            }
+            .button2:hover{
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}
+#sec-2{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 650px;
+    background-color: rgb(222, 222, 222);
+    .start{
+        width: 100%;
+        text-align: center;
+        min-height: 200px;
+        
+    }
+    .VievDetailis{
+        width: 100%;
+        min-height: 370px;
+        background-color: white;
+        box-shadow: 0 0 30px rgba($color: #595959, $alpha: 0.5);
+        border: 0.5px solid rgb(185, 185, 185);
+        padding-top: 20px;
+        margin-bottom: 20px;
+        h4{
+            margin: 20px;
+        }
+        p{
+            margin: 10px;
+        }
+        button{
+            width: 150px;
+            height: 40px;
+            border: none;
+            background-color: #7bc40e;
+            color: white;
+            margin-top: 20px;
+        }
+        button:hover{
+            background-color: rgb(91, 147, 7);
+        }
+    }
+}
+#SatisfiedClients{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("https://preview.colorlib.com/theme/server/images/hero_bg_3.jpg");
+    .RegisterNow{
+        width: 100%;
+        color: white;
+        h1{
+            font-size: 80px;
+            font-weight: 600;
+            font-family: poppins;
+
+        }
+        button{
+            width: 200px;
+            min-height: 60px;
+            border: none;
+            color: white;
+            background-color: #7bc40e;
+            margin-top: 20px;
+        }
+        button:hover{
+            background-color: rgb(91, 147, 7);
+        }
+    }
+}
+#API{
+    width: 100%;
+    min-height: 900px;
+    background-color: white;
+   
+    .whyChooseUs{
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2{
+            font-size: 45px;
+            font-weight: 600;
+            font-family: poppins;
+        }
+    }
+    #btn{
+        width: 200px;
+        min-height: 45px;
+        background-color: #7bc40e;
+        color: white;
+        border: none;
+
+    }
+    #btn:hover{
+        background-color: white;
+        color: black;
+    }
+    #myDiv{
+        width: 100%;
+        min-height: 600px;
+        background-color: white;
+
+        .myBox{
+            width: 100%;
+            min-height: 270px;
+            
+            .md{
+                width: 100%;
+                min-height: 270px;
+                border: 0.3px solid rgb(199, 196, 196);
+                margin-bottom: 20px;
+                .img{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    margin-top: 20px;
+                    padding-top: 20px;
+                    margin-bottom: 20px;
+                    
+                    img{
+                        width: 25%;
+                        border-radius: 60%;
+                        margin-left: 20px;
+                    }
+                   
+                }
+                h3{
+                    font-family: poppins;
+                    font-weight: 700;
+                }
+                p{
+                    margin-left: 20px;
+                    font-family: poppins;
+                }
+                button{
+                    margin-left: 20px;
+                    width: 40%;
+                    min-height: 35px;
+                    border: none;
+                    background-color: #7bc40e;
+                    color: white;
+                }
+                button:hover{
+                    background-color: rgb(91, 147, 7);
+                }
+            }
+        }
+    }
+}
+footer{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    .end{
+        width: 100%;
+        text-align: center;
+        p{
+            color: white;
+        }
+    }
+}
